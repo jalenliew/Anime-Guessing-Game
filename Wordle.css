@@ -1,0 +1,104 @@
+body {
+    font-family: 'Anime Ace', sans-serif;
+    text-align: center;
+    background-image: url('Jolly_Roger.jpg');
+    background-size: 125px 100px;
+
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    width: 750px;
+    height: 50px;
+    margin: auto;
+}
+
+#characteristics {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color: black;
+    color: white;
+    width: 1300px;
+    height: 25px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    width: 1300px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#guessBox {
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    border: 2px solid gray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTile {
+    border: 2px solid gray;
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    border-color: pink;
+}
+
+.present {
+    font-size: 10px;
+    background-color: yellow;
+    color: white;
+    border-color: pink;
+}
+
+.absent {
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-color: pink;
+}
